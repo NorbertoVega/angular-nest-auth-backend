@@ -1,0 +1,23 @@
+npm i -g @nestjs/cli
+nest new nest-backend
+renombrar nest-backend a 12-nest-backend
+cd .\12-nest-backend\
+code .
+npm run start:dev (ejecuta: nest start --watch)
+
+docker:
+
+docker compose up -d 
+
+(docker compose down (remueve los contenedores))
+
+nest g resource <nombre>
+
+npm i @nestjs/mongoose mongoose
+npm i @nestjs/config
+npm i class-validator class-transformer
+npm i bcryptjs
+npm i --save-dev @types/bcryptjs
+npm install --save @nestjs/jwt
+
+nest g gu auth/guards/auth
